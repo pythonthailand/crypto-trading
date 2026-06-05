@@ -1,0 +1,33 @@
+# Core
+python-dotenv==1.0.1
+python-dateutil==2.9.0
+
+# Data & ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+xgboost==2.1.1
+ta==0.11.0
+
+# API
+fastapi==0.111.1
+uvicorn[standard]==0.30.5
+pydantic==2.8.2
+pydantic-settings==2.3.4
+
+# Binance
+python-binance==1.0.19
+
+# Async
+httpx==0.27.0
+websockets==12.0
+
+# Utils
+rich==13.7.1
+loguru==0.7.2
+schedule==1.2.1
+
+# Testing
+pytest==8.3.2
+pytest-asyncio==0.23.8
+pytest-cov==5.0.0
