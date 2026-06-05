@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.0] — 2026-06-05
+
+### Added
+- Unit tests for all core modules (44 tests):
+  - `tests/test_indicators.py` — RSI, MACD, BB, EMA crossover, ATR, compute_all
+  - `tests/test_signal_generator.py` — Signal generation, TA voting, ML fallback, multi-symbol
+  - `tests/test_risk_manager.py` — Position sizing, SL/TP prices, trailing stop, drawdown, concurrency
+  - `tests/test_order_executor.py` — DB recording, fill parsing, multiple records
+  - `tests/test_backtest.py` — Run simulation, exit checks (SL/TP), summary metrics
+
 ## [0.1.0] — 2026-06-05
 
 ### Added
